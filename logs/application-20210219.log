@@ -1,0 +1,25 @@
+2021-02-19 14:29:04.735 [main] ERROR base.Capabilities - Exception found: org.openqa.selenium.SessionNotCreatedException: Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Error getting device API level. Original error: Error executing adbExec. Original error: 'Command 'C:\\Users\\savet\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe -P 5037 -s 52009016b408451f shell getprop ro.build.version.sdk' exited with code 1'; Stderr: 'adb.exe: device unauthorized.
+This adb server's $ADB_VENDOR_KEYS is not set
+Try 'adb kill-server' if that seems wrong.
+Otherwise check for a confirmation dialog on your device.'; Code: '1'
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-F5KF84B', ip: '192.168.0.17', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14'
+Driver info: driver.version: AndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Error getting device API level. Original error: Error executing adbExec. Original error: 'Command 'C:\\Users\\savet\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe -P 5037 -s 52009016b408451f shell getprop ro.build.version.sdk' exited with code 1'; Stderr: 'adb.exe: device unauthorized.
+This adb server's $ADB_VENDOR_KEYS is not set
+Try 'adb kill-server' if that seems wrong.
+Otherwise check for a confirmation dialog on your device.'; Code: '1'
+    at getResponseForW3CError (C:\Program Files\Appium\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)
+    at asyncHandler (C:\Program Files\Appium\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:392:37)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-F5KF84B', ip: '192.168.0.17', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14'
+Driver info: driver.version: AndroidDriver
+2021-02-19 14:32:18.961 [main] INFO  base.Capabilities - Device connected to Appium server.
+2021-02-19 15:09:35.012 [main] INFO  base.BasePage - Page created: pages.LandingPage
+2021-02-19 15:10:18.098 [main] INFO  base.Capabilities - Device connected to Appium server.
+2021-02-19 15:10:59.785 [main] INFO  base.BasePage - Page created: pages.LandingPage
+2021-02-19 15:10:59.800 [main] INFO  base.BasePage - Page created: pages.SignInPage
+2021-02-19 15:11:50.584 [main] INFO  base.Capabilities - Device connected to Appium server.
+2021-02-19 15:11:55.637 [main] DEBUG base.BasePage - Element clicked
+2021-02-19 15:11:58.410 [main] DEBUG base.BasePage - Element clicked
+2021-02-19 15:12:29.089 [main] INFO  base.BasePage - Element: By.xpath: /hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.ListView/android.widget.TextView[1] was not found within 10 sec. Trying again ...
